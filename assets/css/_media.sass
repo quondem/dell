@@ -1,0 +1,457 @@
+@media (max-width:  1500px)
+    .container
+        max-width: 1400px
+        padding: 0 15px
+    .suggestions
+        flex-direction: column
+        height: 789px
+        &__wrapper
+            width: 100%
+        &__deal
+            position: relative
+            flex-direction: row
+            align-items: center
+            margin-left: -32px
+            width: calc(100% + 200px)
+            height: 196px
+            background-color: #F9F9F9
+            background-image: url()
+        &__image
+            display: block
+            width: 252px
+            height: 166px
+            margin-left: -33px
+        &__offer
+            font-size: 20px
+            margin-top: 0px
+            margin: auto 0
+    .swiper
+        &-button
+            right: calc(100% - 1285px)
+    .catalog
+        &__wrapper
+            grid-template-columns: repeat(2,1fr)
+    .news
+        &__wrapper
+            grid-template-columns: repeat(2,1fr)
+        &__top
+            margin-left: 30px
+        &__more-text
+            margin-left: 0
+@media (max-width:  1340px)
+    .suggestions
+        height: 789px
+        &__wrapper
+            width: 100%
+            height: 639px
+            flex-direction: column
+        &__scroll
+            display: none
+        &__info
+            margin: 80px auto -10px auto
+        &__title
+            margin-bottom: 28px
+        &__subtitle
+            margin-bottom: 5px
+        &__scroll
+            display: none
+    .swiper
+        width: 327px !important
+        height: 325px !important
+        margin: 0 auto 10px auto !important
+        &-pagination
+            top: 90% !important
+            left: 55% !important
+        &-button
+            top: 559px
+            left: 65%
+            right: 0
+    .advantages
+        &__item
+            margin-right: 0
+        &__wrapper
+            display: grid
+            grid-gap: 17px
+            grid-template-columns: repeat(2,1fr)
+            justify-items: center
+        &__title
+            font-size: 30px
+        &__subtitle
+            font-size: 15px
+            font-weight: 400
+    .contacts
+        height: 1604px
+        &::before
+            width: 0 !important
+        &::after
+            width: 0 !important
+        &__wrapper
+            height: 100%
+            flex-direction: column
+        &__contacts
+            width: calc(100% + 30px)
+            margin-left: -15px
+            border-radius: 0
+        &__title
+            font-size: 30px
+        &__subtitle
+            font-size: 15px
+        &__name
+            font-size: 15px
+        &__text
+            font-size: 15px
+            line-height: 133.687%
+        &__phone
+            right: 130px
+    .application
+        width: calc(100% + 30px)
+        margin-left: -15px
+        border-radius: 0
+    .footer
+        &__logo
+            margin: 0 0 28px 0
+            flex-grow: 1
+        &__wrapper
+            flex-direction: column
+            align-items: center
+        &__list
+            margin-right: 0
+        &__cover
+            width: 100%
+            justify-content: space-between
+@media (max-width:  1200px)
+    .header
+        height: 90px
+        &__button
+            &.heart
+                display: none
+            &.rating
+                display: none
+            &.menu
+                display: block
+        &__search
+            margin-left: auto
+            margin-right: 30px
+        &__nav
+            transform: translateY(-500px)
+            position: absolute
+            margin-left: -15px
+            top: 90px
+            z-index: 101
+            width: 120%
+            background-color: #fff
+            padding: 56px 38px 64px 38px
+            width: calc(100% + 30px)
+            align-items: center
+            flex-direction: column
+            &.active
+                transform: translateY(0px)
+        &__link
+            margin-right: 0
+            margin-bottom: 45px
+            &:last-child
+                margin-bottom: 0
+    .swiper
+        &-button
+            left: 62%
+            top: 601px
+            width: 64px
+            height: 14px
+@media (max-width:  1100px)
+    .advantages
+        &__info
+            margin-left: 0
+            align-items: center
+            flex-direction: column
+        &__about
+            order: -1
+            margin-top: 0
+    .bottom
+        flex-direction: column
+        align-items: start
+        &__item
+            margin-bottom: 20px
+        &__title
+            font-size: 15px
+        &__text
+            font-size: 15px
+@media (max-width:  1000px)
+    .swiper
+        &-button
+            left: 70%
+            top: 591px
+    .catalog
+        &__wrapper
+            grid-template-columns: repeat(1,1fr)
+    .news
+        &__wrapper
+            grid-template-columns: repeat(1,1fr)
+            & a:nth-child(even)
+                display: none !important
+        &__day
+            font-size: 18px
+        &__month
+            font-size: 15px
+        &__item
+            width: 324px
+            &::before
+                background-image: url('./assets/images/news-item-bottom-small.svg')
+                height: 142px
+        &__about
+            margin-top: -21px
+            margin-left: 20px
+        &__name
+            display: inline-block
+            margin-right: 0
+            margin-bottom: 9px
+        &__button
+            position: absolute
+            top: 165px
+            top: 8px
+            right: 0
+        &__top
+            flex-direction: column
+            margin-bottom: 39px
+        &__title
+            font-size: 30px
+        &__subtitle
+            font-size: 15px
+        &__info
+            width: 100%
+    .more svg
+        width: 45px
+        height: 45px
+@media (max-width:  900px)
+    .contacts
+        height: 1462px
+        &__contacts
+            height: 623px
+            padding-bottom: 59px
+        &__title
+            font-size: 30px
+            margin-bottom: 15px
+        &__subtitle
+            font-size: 15px
+            margin-bottom: 40px
+        &__name
+            font-size: 15px
+        &__text
+            font-size: 15px
+            line-height: 133.687%
+        &__phone
+            height: 358px
+            width: 171px
+            transform: rotate(15deg)
+            object-fit: cover
+            top: auto
+            right: auto
+            left: 400px
+            bottom: -46px
+        &__info
+            margin-bottom: 30px !important
+@media (max-width:  768px)
+    .suggestions
+        &__title
+            font-size: 30px
+        &__subtitle
+            font-size: 15px
+    .swiper
+        &-button
+            left: 70%
+            top: 553px
+            width: 64px
+            height: 14px
+        &-pagination
+            margin-bottom: -30px
+            top: 120%
+    .catalog
+        padding: 120px 0
+        &__title
+            font-size: 30px
+            line-height: normal
+            margin-bottom: 20px
+        &__subtitle
+            font-size: 15px
+        &__more
+            margin-right: 30px
+        &__item
+            width: 345px
+            height: 290px
+            border-radius: 10px
+            &.notebook
+                & img
+                    width: 302px
+                    height: 178px
+                    margin-top: 15px
+                    margin-left: 21px
+                    margin-bottom: 14px
+            &.computer
+                & img
+                    width: 210px
+                    height: 193px
+                    margin-left: 99px
+                    margin-top: 10px
+                    margin-bottom: 15px
+            &.server
+                & img
+                    width: 264.239px
+                    height: 107.42px
+                    margin-top: 63px
+                    margin-left: 40px
+                    margin-bottom: 50px
+            &.emc
+                & img
+                    width: 226.602px
+                    height: 124.67px
+                    margin-top: 46px
+                    margin-left: 58px
+                    margin-bottom: 51px
+            &.spares
+                & img
+                    width: 253.261px
+                    height: 167.011px
+                    margin-top: 29px
+                    margin-left: 68px
+                    margin-bottom: 23px
+            &::before
+                top: 20px !important
+                left: 20px !important
+        &__name
+            font-size: 20px
+            line-height: 150%
+        &__count
+            font-size: 15px
+        &__info
+            padding-left: 20px
+    .advantages
+        &__wrapper
+            grid-template-columns: repeat(1,1fr)
+        &__about
+            width: 336px
+            margin-left: 0
+        &__item
+            max-width: 345px
+        &__img
+            width: 345px
+            min-width: 345px
+            height: 194px
+            margin-left: 130px
+            margin-top: -65px
+        &__name
+            font-size: 18px
+    .news
+        padding: 120px 0
+    .contacts
+        height: 1427px
+        &__phone
+            height: 244px
+            width: 120px
+            transform: rotate(15deg)
+            object-fit: cover
+            top: auto
+            right: auto
+            bottom: -46px
+            left: 250px
+    .application
+        padding-left: 50px
+        &__title
+            font-size: 30px
+            line-height: normal
+            margin-bottom: 15px
+        &__subtitle
+            font-size: 15px
+            margin-bottom: 50px
+        &__name
+            font-size: 15px
+    .footer
+        &__item
+            width: 141px
+            white-space: nowrap
+        &__help
+            order: -1
+        &__catalog
+            order: 1
+            flex-grow: 1
+            & ul
+                display: grid
+                grid-template-columns: repeat(2,1fr)
+                grid-column-gap: 58px
+        &__cover
+            display: grid
+            grid-template-columns: repeat(2,1fr)
+            grid-gap: 30px
+        &__name
+            font-size: 18px
+        &__link
+            font-size: 15px
+            &.computer
+                order: -1
+@media (max-width:  580px)
+    .header
+        &__name
+            display: none
+    .suggestions
+        &::before
+            width: 293px
+            height: 77px
+            top: 18px
+            left: 32px
+            background-image: url('./assets/images/dell-bg-small.svg')
+            fill: linear-gradient(180deg, rgba(255, 255, 255, 0.69) 0%, rgba(242, 242, 242, 0.70) 100%)
+    .swiper
+        &-button
+            left: 75%
+        &-pagination
+            left: 45% !important
+    .contacts
+        height: 1291px
+        &__contacts
+            padding-left: 30px
+        &__phone
+            left: 178px
+        &__info
+            white-space: wrap
+        &__text
+            width: 255px
+    .application
+        padding-right: 30px
+        padding-top: 60px
+        padding-left: 30px
+        padding-bottom: 60px
+        &__cover
+            margin-bottom: 40px
+            &.comment
+                margin-bottom: 30px
+@media (max-width:  440px)
+    .contacts
+        height: 1316px
+        &__contacts
+            height: 647px
+    .news
+        &__top
+            margin-left: 0
+    .advantages
+        &::before
+            width: 335px
+            height: 121px
+            object-fit: cover
+            top: 373px
+            left: 14px
+            background-image: url('./assets/images/best-quality-small.svg')
+@media (max-width:  400px)
+    .suggestions
+        &__info
+            margin: 80px 0 10px 0
+    .swiper
+        &-button
+            left: 79%
+            top: 560px
+        &-pagination
+            top: 83% !important
+            left: 50% !important
+    .social
+        & img
+            width: 37px
+            height: 37px
+    .contacts
+        height: 1340px
